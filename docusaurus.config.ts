@@ -47,7 +47,7 @@ const config: Config = {
 
   themeConfig: {
     navbar: {
-      title: 'Eduxio',
+      title: '📖',
       hideOnScroll: true,
       items: [
         {
