@@ -92,3 +92,14 @@
   background-color: var(--ifm-color-primary-darker);
   border-color: var(--ifm-color-primary-dark);
 }
+
+/* Оформление журнальной врезки */
+.insert {
+  background-color: #e6e6e6;
+  padding: 5%;
+  margin-bottom: var(--ifm-paragraph-margin-bottom);
+}
+
+.insert p:last-child {
+  margin-bottom: 0;
+}
