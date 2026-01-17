@@ -4,18 +4,25 @@ import type * as Preset from '@docusaurus/preset-classic';
 import remarkGfm from 'remark-gfm';
 
 const config: Config = {
-  title: 'eduxio',
-  tagline: 'Учись любить учиться!',
+  title: 'Библиотека',
   favicon: 'img/favicon.ico',
+  future: {
+    v4: true,
+  },
 
   // Развёртывание на github
-  url: 'https://eduxio.ru',
-  baseUrl: '/',
+  url: 'https://goryntsev.github.io',
+  baseUrl: '/library/',
   organizationName: 'goryntsev',
-  projectName: 'eduxio',
+  projectName: 'library',
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn'
+    },
+  },
   trailingSlash: false,
+  deploymentBranch: 'gh-pages',
 
   // Локализация
   i18n: {
@@ -47,16 +54,9 @@ const config: Config = {
 
   themeConfig: {
     navbar: {
-      title: '📖',
+      title: '',
       hideOnScroll: true,
-      items: [
-        {
-          type: 'doc',
-          docId: 'brecht',
-          position: 'left',
-          label: "Библиотека",
-        },
-      ],
+      items: [ ],
     },
  
     prism: {
