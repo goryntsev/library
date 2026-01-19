@@ -64,6 +64,12 @@ const config: Config = {
         srcDark: 'books_white.svg',
       },
     },
+
+    colorMode: {
+      defaultMode: 'light',
+      disableSwitch: true,
+      respectPrefersColorScheme: true,
+    },
  
     prism: {
       theme: prismThemes.github,

@@ -1,5 +1,4 @@
 ---
-slug: /
 title: Ich habe gehört, ihr wollt nichts lernen
 id: brecht
 sidebar_position: 0
