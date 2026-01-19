@@ -61,7 +61,8 @@ const config: Config = {
         docs: {
           breadcrumbs: false,
           routeBasePath: "/",
-          sidebarPath: './sidebars.ts',
+          // sidebarPath: './sidebars.ts',
+          sidebarPath: false,
           remarkPlugins: [remarkGfm],
         },
         theme: {
