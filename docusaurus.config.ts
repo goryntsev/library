@@ -5,7 +5,7 @@ import remarkGfm from 'remark-gfm';
 
 const config: Config = {
   title: 'Чтиво',
-  favicon: 'books_black.svg',
+  favicon: 'books_logo.svg',
   future: {
     v4: true,
   },
@@ -60,8 +60,8 @@ const config: Config = {
       items: [ ],
       logo: {
         alt: 'Библиотека',
-        src: 'books_black.svg',
-        srcDark: 'books_white.svg',
+        src: 'books_logo.svg',
+        // srcDark: 'books_white.svg',
       },
     },
 
