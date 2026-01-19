@@ -4,30 +4,11 @@ import type * as Preset from '@docusaurus/preset-classic';
 import remarkGfm from 'remark-gfm';
 
 const config: Config = {
-  title: 'Библиотека',
+  title: 'Чтиво',
   favicon: 'books_black.svg',
   future: {
     v4: true,
   },
-
-  headTags: [
-    {
-      tagName: 'link',
-      attributes: {
-        rel: 'icon',
-        href: 'books_white.svg',
-        media: '(prefers-color-scheme: dark)',
-      },
-    },
-    {
-      tagName: 'link',
-      attributes: {
-        rel: 'icon',
-        href: 'books_black.svg',
-        media: '(prefers-color-scheme: light)',
-      },
-    },
-  ],
 
   // Развёртывание на github
   url: 'https://goryntsev.github.io',
