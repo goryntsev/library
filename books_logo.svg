@@ -1,0 +1,22 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 100 94"
+>
+  <style>
+    /* Light mode */
+    path {
+      fill: #000000;
+    }
+
+    /* Dark mode */
+    @media (prefers-color-scheme: dark) {
+      path {
+        fill: #ffffff;
+      }
+    }
+  </style>
+
+  <path d="M33.4894 0H53.583V94H33.4894V0Z"/>
+  <path d="M0 13.4286H20.0937V94H0V13.4286Z"/>
+  <path d="M81.1361 13.0784L62.2214 17.8059L81.0852 93.6498L100 88.9223L81.1361 13.0784Z"/>
+</svg>
