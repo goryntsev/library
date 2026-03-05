@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pisarev.md",
+                "file": "dtstrat.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "pisarev"
+              "title": "dtstrat"
             }
           }
         ],
@@ -200,8 +200,9 @@
   },
   "active": "2b0327d96f1c0fb0",
   "lastOpenFiles": [
-    "disruption.md",
+    "pics/dtstrat2.svg",
     "pisarev.md",
+    "disruption.md",
     "caseguide.md",
     "brodsky.md",
     "cynefin.md",
