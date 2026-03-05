@@ -1,9 +1,9 @@
 {
   "title": {
-    "message": "Чтиво",
+    "message": "",
     "description": "The title in the navbar"
   },
-  "item.label.Библиотека": {
+  "item.label.Содержание": {
     "message": "Библиотека",
     "description": "Navbar item with label Библиотека"
   }
