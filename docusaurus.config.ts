@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 import remarkGfm from 'remark-gfm';
 
 const config: Config = {
-  title: 'Чтиво',
+  title: 'Библиотека',
   favicon: 'img/cell.png',
   future: {
     v4: true,
@@ -68,7 +68,7 @@ const config: Config = {
     colorMode: {
       defaultMode: 'light',
       disableSwitch: true,
-      respectPrefersColorScheme: true,
+      respectPrefersColorScheme: false,
     },
  
     prism: {
